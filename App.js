@@ -31,7 +31,7 @@ export default class App extends React.Component {
       })
     } else {
       
-      if (this.opButtons.includes( op )) {
+      if (this.opButtons.includes( op ) && op !== "-") {
         if (! this.state.hasOperationButton ) {
           this.setState({ hasOperationButton: true })
         } else {
