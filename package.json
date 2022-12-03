@@ -14,5 +14,14 @@
   "devDependencies": {
     "babel-preset-expo": "~9.2.1"
   },
+  "resolutions": {
+    "**/**/decode-uri-component": "^0.2.1",
+    "**/**/kind-of": "^6.0.3",
+    "**/**/minimatch": "^3.0.5",
+    "**/**/minimist": "^1.2.6",
+    "**/**/node-fetch": "^2.6.1",
+    "**/**/set-value": "^2.0.1",
+    "**/**/shell-quote": "^1.7.3"
+  },
   "private": true
 }
